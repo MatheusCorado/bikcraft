@@ -74,6 +74,8 @@ img {
     background: #111111;
     padding: 12px 16px;
     border-radius: 4px;
+    font-family: "Poppins";
+    font-weight: 400;
   }
   .header-menu a:hover {
     background-color: #2e2e2e;
@@ -125,6 +127,8 @@ img {
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
 }
 .introducao h1 span {
   color: #fb0;
@@ -134,6 +138,8 @@ img {
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .introducao a {
@@ -146,7 +152,8 @@ img {
   color: #320;
   font-size: 18px;
   line-height: 1.33;
-  font-weight: bold;
+  font-family: "Poppins";
+  font-weight: 600;
 }
 
 .introducao a:hover {
@@ -183,4 +190,34 @@ img {
   .introducao-conteudo {
     padding-bottom: 40px;
   }
+}
+
+.bicicletas-bg {
+  background-color: #ffffff;
+  color: #000000;
+}
+.bicicletas h2 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+.bicicletas h2 span {
+  color: #fb0;
+}
+
+.bicicletas {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bicicletas-item {
+  display: flex;
+  max-width: auto;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
